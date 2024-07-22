@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fade-fast,
+.fade-slow {
+    &-enter-form,
+    &-leave-to {
+        opacity: 0;
+    }
+
+    &-enter-to,
+    &-leave-form {
+        opacity: 1;
+    }
+}
+
+.fade-fast {
+    &-enter-active,
+    &-leave-active {
+        transition: opacity 0.1s;
+    }
+}
+
+
+.fade-slow {
+    &-enter-active,
+    &-leave-active {
+        transition: opacity 0.3s;
+    }
+}
