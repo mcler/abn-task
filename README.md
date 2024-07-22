@@ -1,5 +1,7 @@
 # A Vue 3 app for ABN
 
+https://abn-task.vercel.app/
+
 ## How to run
 ### Installation
 ```
@@ -32,7 +34,7 @@ As few as possible:
 - `virtua` for virtual scroll
 
 ### Styling
-I am using TailwindCSS for styling. I am also using BEM methodology for class naming.
+I am using TailwindCSS for styling. I am also demonstrating usage of BEM methodology for class naming on Detail page.
 
 ### Testing
 
